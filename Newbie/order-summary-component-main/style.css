@@ -1,0 +1,79 @@
+body {
+    background: url('./images/pattern-background-desktop.svg') no-repeat center center fixed !important;
+    background-size: cover !important;
+    color: black !important;
+    font-family: 'Red Hat Display' !important;
+}
+
+.main {
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 10px;
+    width: 40vw;
+    height: 90vh;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 100%;
+}
+
+h4 {
+    font-weight: 900;
+}
+
+p {
+    max-width: 80%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#price {
+    display: block;
+    margin: 0 auto;
+    background-color: hsl(225, 100%, 95%);
+    border-radius: 10px;
+    font-weight: 400;
+    width: 80%;
+    height: 15%;
+}
+
+#price img {
+    width: 50%;
+    margin-top: 10%;
+}
+
+#price a {
+    color: darkblue !important;
+}
+
+#proceed {
+    background-color: hsl(245, 75%, 52%);
+    width: 60%;
+    height: 8%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .4);
+}
+
+@media only screen and (max-width: 440px) {
+    .main {
+        margin-top: 5%;
+        width: 90vw;
+        height: 80vh;
+    }
+
+    #price {
+        width: 90%;
+        height: 20%;
+    }
+
+    #price img {
+        width: 90%;
+        margin-top: 20%;
+    }
+}
