@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white !important;
+    background: url('./fundo.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2.5rem !important;
+}
+
+button {
+    border: 1px solid black !important;
+    width: 80%;
+    height: 100%;
+    font-size: 1.3rem !important;
+    transition: all .3s ease-in-out;
+    background-color: rgb(49, 138, 49) !important;
+}
+
+button:hover {
+    transition: all .3s ease-in-out;
+    background-color: rgb(49, 110, 49) !important;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.Back {
+    position: absolute;
+    width: 7% !important;
+    height: 7% !important;
+    top: 0 !important;
+}
+
+@media only screen and (max-width: 980px) {
+    button {
+        width: 100%;
+    }
+}
