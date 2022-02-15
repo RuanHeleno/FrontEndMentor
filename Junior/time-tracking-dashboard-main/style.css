@@ -85,10 +85,14 @@ body {
     background: hsl(43, 84%, 65%) url('./images/icon-self-care.svg') no-repeat 95% -6%;
 }
 
+.cards {
+    height: 100%;
+}
+
 .cards-info {
     background-color: hsl(235, 40%, 30%);
     border-radius: 10px;
-    height: 20vh;
+    height: 85%;
 }
 
 .cards-title img {
@@ -118,10 +122,4 @@ body {
 
 .hours-previous {
     font-weight: 200;
-}
-
-@media screen and (max-width: 440px) {
-    body {
-        display: block !important;
-    }
 }

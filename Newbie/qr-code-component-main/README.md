@@ -1,6 +1,6 @@
-# Frontend Mentor - NFT preview card component solution
+# Frontend Mentor - Qr Code component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Qr Code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -41,12 +41,12 @@ Users should be able to:
 
 ### What I learned
 
-How to work with Bootstrap5 flexbox.
+- How to work with Bootstrap5 flexbox
 
 ### Continued development
 
-- Layout;
-- Flexbox;
+- Layout
+- Flexbo
 - Semantic;
 ## Author
 

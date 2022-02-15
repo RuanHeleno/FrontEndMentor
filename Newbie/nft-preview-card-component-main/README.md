@@ -41,13 +41,13 @@ Users should be able to:
 
 ### What I learned
 
-How to work with Bootstrap5 flexbox.
+- How to work with Bootstrap5 flexbox
 
 ### Continued development
 
-- Layout;
-- Flexbox;
-- Semantic;
+- Layout
+- Flexbox
+- Semantic
 ## Author
 
 - Website - [Ruan Heleno](ruanheleno.github.io)
