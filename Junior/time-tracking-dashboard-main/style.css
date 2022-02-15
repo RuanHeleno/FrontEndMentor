@@ -1,0 +1,127 @@
+body {
+    background-color: hsl(235, 46%, 20%) !important;
+    color: white !important;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Rubik' !important;
+}
+
+/* principal */
+.content {
+    width: 80vw;
+}
+
+.card-main {
+    background-color: hsl(235, 40%, 30%);
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.card-main-up {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 10px;
+    height: 63%;
+}
+
+.card-main-up img {
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.card-main-text {
+    font-weight: 300;
+}
+
+.card-main-text strong{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.btns {
+    font-weight: 200;
+    
+}
+
+.bttn {
+    color: inherit;
+    background-color: inherit;
+    border: none;
+    text-align: left;
+}
+
+.bttn-selected {
+    font-weight: bold;
+}
+
+/* cards */
+.cards {
+    border-radius: 12px;
+    width: 18vw;
+    height: 25vh;
+}
+
+.work {
+    background: hsl(15, 100%, 70%) url('./images/icon-work.svg') no-repeat 95% -6%;
+}
+
+.play {
+    background: hsl(195, 74%, 62%) url('./images/icon-play.svg') no-repeat 95% -6%;
+}
+
+.study {
+    background: hsl(348, 100%, 68%) url('./images/icon-study.svg') no-repeat 95% -6%;
+}
+
+.exercise {
+    background: hsl(145, 58%, 55%) url('./images/icon-exercise.svg') no-repeat 95% -2%;
+}
+
+.social {
+    background: hsl(264, 64%, 52%) url('./images/icon-social.svg') no-repeat 95% 1%;
+}
+
+.selfCare {
+    background: hsl(43, 84%, 65%) url('./images/icon-self-care.svg') no-repeat 95% -6%;
+}
+
+.cards-info {
+    background-color: hsl(235, 40%, 30%);
+    border-radius: 10px;
+    height: 20vh;
+}
+
+.cards-title img {
+    width: 8%;
+    height: 5%;
+}
+
+#work-daily, #play-daily, #study-daily, #exercise-daily, #social-daily, #selfCare-daily {
+    display: block;
+}
+
+#work-weekly, #play-weekly, #study-weekly, #exercise-weekly, #social-weekly, #selfCare-weekly {
+    display: none;
+}
+
+#work-monthly, #play-monthly, #study-monthly, #exercise-monthly, #social-monthly, #selfCare-monthly {
+    display: none;
+}
+
+.hours {
+    margin: 5% 0 0 5%;
+}
+
+.hours-recent {
+    font-size: 50px;
+}
+
+.hours-previous {
+    font-weight: 200;
+}
+
+@media screen and (max-width: 440px) {
+    body {
+        display: block !important;
+    }
+}
