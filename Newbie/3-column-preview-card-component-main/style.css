@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%) !important;
+    font-size: 25px;
+    font-family: 'Lexend Deca';
+    align-items: center;
+}
+
+.container-fluid {
+    width: 80vw !important;
+}
+
+.row {
+    height: 75vh;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    max-width: 90%;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.first-card {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.first-card button {
+    color: hsl(31, 77%, 52%);
+}
+
+.second-card {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.second-card button {
+    color: hsl(184, 100%, 22%);
+}
+
+.third-card {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.third-card button {
+    color: hsl(179, 100%, 13%);
+}
+
+.bttns {
+    border-radius: 30px;
+    border: none;
+    width: 40%;
+    height: 10%;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        align-items: start;
+    }
+
+    .container-fluid {
+        margin-top: 20%;
+    }
+
+    .first-card {
+        height: 70vh !important; 
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .second-card {
+        height: 70vh !important; 
+    }
+
+    .third-card {
+        height: 70vh !important; 
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
