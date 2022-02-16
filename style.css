@@ -4,16 +4,24 @@ body {
     color: white !important;
     background: url('./fundo.png') no-repeat center center fixed;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
 h1 {
+    position: absolute;
+    top: 0;
+    font-size: 3rem !important;
+}
+
+h2 {
     font-size: 2.5rem !important;
 }
 
 button {
     border: 1px solid black !important;
     width: 80%;
-    height: 100%;
     font-size: 1.3rem !important;
     transition: all .3s ease-in-out;
     background-color: rgb(49, 138, 49) !important;
@@ -29,27 +37,41 @@ a {
     text-decoration: none !important;
 }
 
-.Back {
+.cards {
+    border-radius: 15px;
+    background-color: rgb(30, 30, 30);
+    padding: 0 !important;
+}
+
+.cards img {
+    width: 70%;
+}
+
+.card-text {
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text button {
+    margin-top: 10%;
+    border-radius: 15px;
+    width: 30%;
+}
+
+footer {
     position: absolute;
-    width: 7% !important;
-    height: 9% !important;
-    top: 0 !important;
+    bottom: 0;
+    font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 980px) {
-    button {
-        width: 100%;
-    }
+footer a {
+    color: rgb(49, 138, 49) !important;
 }
 
-@media only screen and (max-width: 900px) {
-    .Back {
-        width: 10% !important;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .Back {
-        width: 15% !important;
-    }
+footer a:hover {
+    color: rgb(49, 110, 49) !important;
 }

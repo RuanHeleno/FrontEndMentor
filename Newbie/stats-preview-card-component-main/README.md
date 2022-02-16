@@ -1,6 +1,6 @@
-# Frontend Mentor - Qr Code component solution
+# Frontend Mentor - Stats preview card component
 
-This is a solution to the [Qr Code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -42,11 +42,12 @@ Users should be able to:
 ### What I learned
 
 - How to work with Bootstrap5 flexbox
+- How to work with flexbox and container at same time
 
 ### Continued development
 
 - Layout
-- Flexbox
+- Flexbox/Containers
 - Semantic
 
 ## Author

@@ -1,0 +1,33 @@
+.Back {
+    position: absolute;
+    font-size: 2rem;
+    top: 1%;
+    left: 1%;
+}
+
+.cardsChallenge {
+    border-radius: 15px;
+    padding: 0 !important;
+}
+
+.cardsChallenge img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cardsChallenge-text {
+    background-color: rgb(50, 50, 50);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.cardsChallenge-title {
+    font-size: 1.5rem;
+}
+
+.cardsChallenge-text button {
+    margin-top: 10%;
+    border-radius: 15px;
+    width: 30%;
+}

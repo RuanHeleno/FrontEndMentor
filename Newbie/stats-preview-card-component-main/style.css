@@ -1,0 +1,53 @@
+body {
+    background-color: hsl(233, 47%, 7%) !important;
+    color: white !important;
+    font-size: 18px !important;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter';
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.cards {
+    width: 65vw !important;
+}
+
+.card-left {
+    background-color: hsl(244, 38%, 16%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.card-left h1 {
+    font-family: 'Lexend Deca';
+    font-weight: 700;
+}
+
+.card-left h1 > span {
+    color: hsl(277, 64%, 61%);
+}
+
+.card-left h1 + p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.stats span {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.card-right {
+    background: linear-gradient( rgba(150, 71, 202, 0.7), rgba(150, 71, 202, .7)), url("./images/image-header-desktop.jpg") no-repeat top center;
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+@media only screen and (max-width: 400px) {
+    
+}
