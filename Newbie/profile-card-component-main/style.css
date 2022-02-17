@@ -1,0 +1,58 @@
+body {
+    width: 100vw !important;
+    height: 100vh;
+    background: url('./images/bg-pattern-top.svg') -50% 1000% no-repeat, url('./images/bg-pattern-bottom.svg') 120% -1000% no-repeat;
+    background-color: hsl(185, 75%, 39%) !important;
+    font-size: 18px !important;
+    font-family: 'Kumbh Sans' !important;
+}
+
+.container-fluid {
+    width: 20vw !important;
+    height: 40vh !important; 
+}
+
+.cards {
+    background-color: white;
+    border-radius: 15px;
+    padding: 0 !important;
+}
+
+.cards-bg {
+    height: 40%;
+}
+
+.bg-top{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.victor {
+    width: 25%;
+    border-radius: 50%;
+    margin-top: -15%;
+    border: 5px solid white;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.bottom {
+    border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.weak {
+    color: rgba(0, 0, 0, .8);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 470px) {
+    .container-fluid {
+        width: 80vw !important;
+        height: 60vh !important; 
+    }
+}
