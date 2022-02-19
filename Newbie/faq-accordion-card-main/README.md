@@ -21,7 +21,6 @@ This is a solution to the [FAQ Accordion Card Component challenge on Frontend Me
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-- See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
 
 ### Screenshot
@@ -55,7 +54,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Ruan Heleno](ruanheleno.github.io)
-- Github - [RuanHeleno](https://www.github.com/RuanHeleno)
-- LinkedIn - [RuanHeleno](https://www.linkedin.com/in/ruanheleno/)
-- Frontend Mentor - [@RuanHeleno](https://www.frontendmentor.io/profile/RuanHeleno)
+- [Portfolio](https://ruanheleno.github.io)
+- [Github](https://www.github.com/RuanHeleno)
+- [LinkedIn](https://www.linkedin.com/in/ruanheleno/)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/RuanHeleno)

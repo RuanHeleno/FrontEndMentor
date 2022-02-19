@@ -51,7 +51,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Ruan Heleno](ruanheleno.github.io)
-- Github - [RuanHeleno](https://www.github.com/RuanHeleno)
-- LinkedIn - [RuanHeleno](https://www.linkedin.com/in/ruanheleno/)
-- Frontend Mentor - [@RuanHeleno](https://www.frontendmentor.io/profile/RuanHeleno)
+- [Portfolio](https://ruanheleno.github.io)
+- [Github](https://www.github.com/RuanHeleno)
+- [LinkedIn](https://www.linkedin.com/in/ruanheleno/)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/RuanHeleno)

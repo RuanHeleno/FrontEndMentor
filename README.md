@@ -36,6 +36,6 @@ This is a homepage to all challenges from FrontEnd Mentor made by me.
 
 ## Author
 
-- Portfolio - [Ruan Heleno](ruanheleno.github.io)
-- LinkedIn - [RuanHeleno](https://www.linkedin.com/in/ruanheleno/)
-- Frontend Mentor - [@RuanHeleno](https://www.frontendmentor.io/profile/RuanHeleno)
+- [Portfolio](https://ruanheleno.github.io)
+- [LinkedIn](https://www.linkedin.com/in/ruanheleno/)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/RuanHeleno)
