@@ -33,7 +33,17 @@
 }
 
 .footerC {
-    position: relative;
-    bottom: 0;
-    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footerC a {
+    color: rgb(49, 138, 49) !important;
+}
+
+.footerC a:hover {
+    color: rgb(49, 110, 49) !important;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+
 }
