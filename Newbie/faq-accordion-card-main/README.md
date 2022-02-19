@@ -44,12 +44,14 @@ Users should be able to:
 ### What I learned
 
 - How to work with Bootstrap5 flexbox
+- How to align multiple images
 
 ### Continued development
 
 - Layout
 - Flexbox
 - Semantic
+- Imagens alignment
 
 ## Author
 
