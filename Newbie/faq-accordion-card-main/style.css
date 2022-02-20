@@ -33,17 +33,24 @@ h1 {
     margin-left: -19%;
 }
 
-#Q1, #Q2, #Q3, #Q4, #Q5 {
+article {
     border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
 
-#Q1 span, #Q2 span, #Q3 span, #Q4 span, #Q5 span {
+article span, article span, article span, article span, article span {
     display: none;
 }
 
-#Q1 button, #Q2 button, #Q3 button, #Q4 button, #Q5 button {
+.question {
+    cursor: pointer;
     border: none;
-    background-color: inherit;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active,
+.question:hover {
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 599px) {
