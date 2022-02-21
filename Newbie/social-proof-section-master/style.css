@@ -1,0 +1,67 @@
+body {
+    height: 100vh !important;
+    width: 100vw !important;
+    font-size: 15px !important;
+    background: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    font-family: 'Spartan' !important;
+}
+
+main {
+    width: 80% !important;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: 900;
+}
+
+.rates {
+    background-color: hsl(300, 24%, 96%) !important;
+    color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+.rates img {
+    width: 3%;
+}
+
+.card-people {
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 10px;
+    margin-right: 1%;
+}
+
+.card-people img {
+    border-radius: 50%;
+    width: 60%;
+}
+
+.card-people span {
+    color: hsl(333, 80%, 67%);
+}
+
+@media only screen and (max-width: 599px) {
+    body {
+        height: 100% !important;
+    }
+
+    main {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .rates {
+        text-align: center;
+    }
+
+    .rates img {
+        width: 10%;
+    }
+
+    .card-people img {
+        width: 20%;
+    }
+}
