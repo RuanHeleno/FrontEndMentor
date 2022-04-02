@@ -15,7 +15,7 @@ This is a homepage to all challenges from FrontEnd Mentor made by me.
 
 ### Screenshot
 
-![Project](./project.png)
+![Project](./src/Images/project.png)
 
 ### Links
 
@@ -25,14 +25,9 @@ This is a homepage to all challenges from FrontEnd Mentor made by me.
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS3 custom properties
-- [Bootstrap5](https://getbootstrap.com) - For flexbox
-
-### What I learned
-
-- How to work with Bootstrap5 flexbox
-- How to work with flexbox and container at same time
+- [HTML5](https://www.w3schools.com/html/)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Bootstrap5](https://getbootstrap.com)
 
 ## Author
 

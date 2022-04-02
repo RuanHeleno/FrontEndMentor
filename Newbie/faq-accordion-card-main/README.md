@@ -36,9 +36,9 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS3 custom properties
-- [Bootstrap5](https://getbootstrap.com) - For flexbox
+- [HTML5](https://www.w3schools.com/html/)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Bootstrap5](https://getbootstrap.com)
 
 ### What I learned
 
